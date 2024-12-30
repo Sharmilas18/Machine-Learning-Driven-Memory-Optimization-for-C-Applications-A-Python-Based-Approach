@@ -1,0 +1,334 @@
+desc: (none)
+cmd: ./example1
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2301592
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2417397
+mem_heap_B=73728
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2419343
+mem_heap_B=4073728
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=75290423
+mem_heap_B=4473728
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=75290979
+mem_heap_B=4473736
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=75291485
+mem_heap_B=4873736
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=75292040
+mem_heap_B=4873752
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=75292560
+mem_heap_B=4873752
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n4: 4873752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4000000 0x109361: main (mem_alloc_dealloc.cpp:9)
+ n0: 800000 0x1093BA: main (mem_alloc_dealloc.cpp:17)
+ n1: 72704 0x48F9A69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011CA0: call_init (dl-init.c:30)
+    n1: 72704 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 1048 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=75292560
+mem_heap_B=4873744
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=75292631
+mem_heap_B=5273744
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=75293186
+mem_heap_B=5273776
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=75293704
+mem_heap_B=5273776
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n4: 5273776 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4000000 0x109361: main (mem_alloc_dealloc.cpp:9)
+ n0: 1200000 0x1093BA: main (mem_alloc_dealloc.cpp:17)
+ n1: 72704 0x48F9A69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011CA0: call_init (dl-init.c:30)
+    n1: 72704 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 1072 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=75293704
+mem_heap_B=5273760
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=75293775
+mem_heap_B=5673760
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=75293948
+mem_heap_B=6073760
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=75294503
+mem_heap_B=6073824
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=75295022
+mem_heap_B=6073824
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n4: 6073824 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4000000 0x109361: main (mem_alloc_dealloc.cpp:9)
+ n0: 2000000 0x1093BA: main (mem_alloc_dealloc.cpp:17)
+ n1: 72704 0x48F9A69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011CA0: call_init (dl-init.c:30)
+    n1: 72704 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 1120 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=75295022
+mem_heap_B=6073792
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=75295093
+mem_heap_B=6473792
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=75295266
+mem_heap_B=6873792
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=75295439
+mem_heap_B=7273792
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=75295612
+mem_heap_B=7673792
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=75296167
+mem_heap_B=7673920
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=75296686
+mem_heap_B=7673920
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 7673920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4000000 0x109361: main (mem_alloc_dealloc.cpp:9)
+ n0: 3600000 0x1093BA: main (mem_alloc_dealloc.cpp:17)
+ n0: 73920 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=75296686
+mem_heap_B=7673856
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=75296757
+mem_heap_B=8073856
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=75296954
+mem_heap_B=8073856
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=peak
+n3: 8073856 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 4000000 0x109361: main (mem_alloc_dealloc.cpp:9)
+ n0: 4000000 0x1093BA: main (mem_alloc_dealloc.cpp:17)
+ n0: 73856 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=75296954
+mem_heap_B=7673856
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=75297009
+mem_heap_B=7273856
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=75297064
+mem_heap_B=6873856
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=75297119
+mem_heap_B=6473856
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=75297174
+mem_heap_B=6073856
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=75297211
+mem_heap_B=2073856
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=75297803
+mem_heap_B=2073728
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=75307078
+mem_heap_B=2001024
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=75308767
+mem_heap_B=2000000
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
